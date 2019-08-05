@@ -33,8 +33,8 @@ import sys, getopt
 
 class FfInterface:
 
-    def __init__(self):
-        self.swName = os.path.basename(__file__, prefix = 'n4d46t3m')
+    def __init__(self, prefix = 'n4d46t3m'):
+        self.swName = os.path.basename(__file__)
         self.swVersion = '1.3'
         self.fileMovie = ''
         self.outputFile = ''
